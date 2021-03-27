@@ -34,7 +34,7 @@ router.post("/",[
             r: 'pg',
             d: 'mm'
         })
-        //new user instacnce
+        //new user instance
         user = new User({
             email,
             name,
